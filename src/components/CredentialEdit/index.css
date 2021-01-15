@@ -1,0 +1,9 @@
+.IconContainer {
+  position: relative;
+}
+
+.btnEye {
+  position: absolute;
+  top: 8px;
+  right: 0;
+}

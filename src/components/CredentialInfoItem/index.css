@@ -1,0 +1,11 @@
+.icon-container {
+  right: 0px;
+  top: 23px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.edit-input input {
+  border: none;
+  padding-left: 10px;
+} 
