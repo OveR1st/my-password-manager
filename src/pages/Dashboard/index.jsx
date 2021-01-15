@@ -25,7 +25,7 @@ export const Dashboard = ({ isLoggedIn, onLogoutHandler }) => {
       <div className="container">        
           <div className="row d-flex justify-content-between mt-2">
             <span className="mt-4 ml-4">Hello! {activeUser.email}</span>
-            <button onClick={onLogouthandler} type="button" class="logOut btn btn-outline-danger mt-2 mr-3">Log out</button>
+            <button onClick={onLogouthandler} type="button" className="logOut btn btn-outline-danger mt-2 mr-3">Log out</button>
           </div>
           <CredentialAdd addCredsToUser={addCredsToUser} setAddUser={setAddUser} />
           <div className="row mt-4">
