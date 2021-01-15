@@ -83,7 +83,7 @@ export const LoginForm = ({ isLoggedIn, onLoginHandler }) => {
       <form onSubmit={(e) => handleSubmitLogin(e)}>
       <div className="mb-3">
         <label 
-          for="exampleInputEmail1"
+          htmlFor="exampleInputEmail1"
           className="form-label">
           Email address
         </label>
@@ -103,7 +103,7 @@ export const LoginForm = ({ isLoggedIn, onLoginHandler }) => {
 
       <div className="mb-3">
         <label 
-          for="exampleInputPassword1"
+          htmlFor="exampleInputPassword1"
           className="form-label">
           Password
         </label>
