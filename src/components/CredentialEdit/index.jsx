@@ -52,7 +52,7 @@ export const CredentialEdit = ({isEditUser, setEditUser, isIdEdit, activeUser}) 
       <>  
       <h3 className="card-title">Edit Login and Password: {nameService}</h3>
       <form className="d-flex flex-column">
-        <input onChange={onChangeInputLogin} className="form-control mt-2" type="email" placeholder='Login' value={loginV} autocomplete="off"></input>
+        <input onChange={onChangeInputLogin} className="form-control mt-2" type="email" placeholder='Login' value={loginV} autoComplete="off"></input>
         <div className="IconContainer">
           <input id="passInput" onChange={onChangeInputPassword} className="form-control mt-2" type="password" placeholder='Password' value={passwordV} autocomplete="off"></input>
           <button onClick={onVisible} type="button" className="btnEye btn btn-outline-secondary">
