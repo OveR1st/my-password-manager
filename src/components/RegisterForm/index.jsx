@@ -85,7 +85,7 @@ export const Register = ({ isRegisterIn, onRegisterHandler }) => {
       <Fragment>
         <form onSubmit={(e) => handleSubmitRegister(e)}>
         <div className="mb-3">
-          <label for="exampleInputEmail1" className="form-label">
+          <label htmlFor="exampleInputEmail1" className="form-label">
             Email address
           </label>
 
@@ -107,7 +107,7 @@ export const Register = ({ isRegisterIn, onRegisterHandler }) => {
 
         <div className="mb-3">
           <label 
-            for="exampleInputPassword1"
+            htmlFor="exampleInputPassword1"
             className="form-label">
             Password
           </label>
